@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "AvenirNextLTPro-Bold.otf";
+  src: url(/assets/fonts/Font/AvenirNextLTPro-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirNextLTPro-Regular.otf";
+  src: url(/assets/fonts/Font/AvenirNextLTPro-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirNextLTPro-Demi.otf";
+  src: url(/assets/fonts/Font/AvenirNextLTPro-Demi.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "AvenirNextLTPro-Regular.otf";
+  box-sizing: border-box;
+}
+
+#nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#nav a {
+  position: relative;
+  color: #afafaf;
+  text-decoration: none;
+}
+
+.bandsite-nav {
+  background-color: #323232;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bandsite-nav__title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 120px;
+  height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.bandsite-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #afafaf;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.hero-image__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-image__title {
+  position: absolute;
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 5vw;
+}
+
+.about-hero {
+  padding: 24px 16px 16px 16px;
+  color: #323232;
+}
+
+.about-hero h2 {
+  padding-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.about__quotes {
+  padding: 0px 16px;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.about-history {
+  padding: 24px 16px 16px 16px;
+  color: #323232;
+  line-height: 1.5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.the-story {
+  padding: 24px 16px 16px 16px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about-history article {
+  font-size: 13px;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Photo-gallery h2 {
+  padding: 24px 16px 16px 16px;
+  color: #323232;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: Bold 700;
+}
+
+.Photo-gallery img {
+  padding: 8px 8px 8px 8px;
+}
+
+.social {
+  background-color: #323232;
+}
+
+.social__logos {
+  align-items: flex-start;
+  display: flex;
+}
+
+.social h2 {
+  padding: 24px 16px 16px 16px;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #fafafa;
+  margin-top: 10px;
+}
+
+.social__logos li {
+  list-style: none;
+  padding: 16px 16px;
+  display: inline-flex;
+}
+
+.social__about--cam p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.social__about--cam h3 {
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.social__about--pearl p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.social__about--pearl h3 {
+  padding: 16px 16px;
+  color: #ffffff;
+}
+
+.social__about--carson p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 16px 16px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.social__about--carson h3 {
+  padding: 16px 16px;
+  color: #ffffff;
+}
+
+.footer__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #323232;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 100;
+  color: #fff;
+  padding: 24px 16px 16px 16px;
+}
+
+.bandsite-footer {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 100;
+  color: #ffffff;
+  padding: 16px 16px 16px 16px;
+  background-color: #323232;
+}
+
+@media (min-width: 760px) {
+  #nav {
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  .about-title {
+    font-size: 4rem;
+  }
+
+  .about-title {
+    font-size: 5rem;
+    padding: 5% 0px 0px 10px;
+  }
+
+  .bandsite-nav ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .bandsite-nav--bio {
+    padding: 0 20px 0 20px;
+  }
+
+  .concert {
+    -webkit-clip-path: inset(10% 10% 10% 10%);
+            clip-path: inset(10% 10% 10% 10%);
+    -o-object-fit: fill;
+       object-fit: fill;
+    margin: -15px;
+  }
+
+  .about__quotes {
+    width: 80%;
+    padding-left: 10%;
+    font-weight: bold;
+  }
+
+  .the-story {
+    display: flex;
+    padding: 30px 0px 0px 90px;
+  }
+
+  .about-history {
+    display: flex;
+    width: 90%;
+    padding-left: 90px;
+    padding-right: 10px;
+  }
+
+  .Photo-gallery {
+    -moz-column-count: 3;
+         column-count: 3;
+    background-color: #fafafa;
+  }
+
+  .photo-gallery--title {
+    justify-content: left;
+    display: flex;
+    padding: 2%;
+    background-color: #fafafa;
+    font-size: 2rem;
+  }
+
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .social__logos {
+    padding-top: 10px;
+  }
+
+  .social__about--cam {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social__about--pearl {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social__about--carson {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bandsite-footer {
+    display: flex;
+    color: #ffffff;
+    background-color: #323232;
+    justify-content: flex-end;
+  }
+
+  .footer__title {
+    display: flex;
+    justify-content: flex-start;
+  }
+}/*# sourceMappingURL=bio.css.map */
